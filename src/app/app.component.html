@@ -1,26 +1,29 @@
 <section class="main">
-  
+    
+  <!-- .rm-container -->
   <div id="rm-container" class="rm-container rm-closed">
 
     <app-header></app-header>
-
+    <router-outlet></router-outlet>
     <!-- .rm-wrapper -->
     <div class="rm-wrapper">
 
-      <!-- .rm-cover -->
-      <div class="rm-cover">
-        <app-cover></app-cover>
+      
+      <!-- rm-cover -->
+        <div class="rm-cover">
+        
+          <app-cover></app-cover>
+          
+          <app-resume></app-resume>
+        
+        </div><!--rm-cover -->
+        
+       <app-portfolio></app-portfolio> 
+       <app-rigth-side></app-rigth-side>
 
-        <app-resume></app-resume>
+    </div><!-- /rm-wrapper -->
 
-        <app-portfolio></app-portfolio>
-        <app-contact></app-contact>
-
-      </div>
-
-    </div>
-
-  </div>
-
+  </div><!-- /rm-container -->
+  
 </section>
 

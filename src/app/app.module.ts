@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
@@ -8,6 +10,9 @@ import { ResumeComponent } from './pages/resume/resume.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { BackcoverComponent } from './pages/backcover/backcover.component';
 import { CoverComponent } from './pages/cover/cover.component';
+import { StartComponent } from './pages/start/start.component';
+import { RigthSideComponent } from './pages/rigth-side/rigth-side.component';
+
 
 
 
@@ -19,12 +24,15 @@ import { CoverComponent } from './pages/cover/cover.component';
     ResumeComponent,
     ContactComponent,
     BackcoverComponent,
-    CoverComponent
+    CoverComponent,
+    StartComponent,
+    RigthSideComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+    providers: [],
+    bootstrap: [AppComponent]
+  })
 export class AppModule { }
