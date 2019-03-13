@@ -10,8 +10,6 @@ import { ResumeComponent } from './pages/resume/resume.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { BackcoverComponent } from './pages/backcover/backcover.component';
 import { CoverComponent } from './pages/cover/cover.component';
-import { StartComponent } from './pages/start/start.component';
-import { RigthSideComponent } from './pages/rigth-side/rigth-side.component';
 
 
 
@@ -24,9 +22,7 @@ import { RigthSideComponent } from './pages/rigth-side/rigth-side.component';
     ResumeComponent,
     ContactComponent,
     BackcoverComponent,
-    CoverComponent,
-    StartComponent,
-    RigthSideComponent
+    CoverComponent
   ],
   imports: [
     BrowserModule,

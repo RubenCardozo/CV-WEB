@@ -4,7 +4,7 @@ import { CoverComponent } from './pages/cover/cover.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { ResumeComponent } from './pages/resume/resume.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { StartComponent } from './pages/start/start.component';
+
 
 
 
