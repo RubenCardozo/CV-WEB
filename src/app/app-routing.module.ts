@@ -9,12 +9,12 @@ import { ContactComponent } from './pages/contact/contact.component';
 
 
 const appRoutes: Routes = [
-    // { path: '', component: CoverComponent},
+    { path: '', component: CoverComponent},
     { path: 'home', component: CoverComponent},
     { path: 'portrait', component: PortfolioComponent},
     { path: 'cv', component: ResumeComponent},
     { path: 'contact', component: ContactComponent},
-    { path: '**', pathMatch: 'full', redirectTo: 'home'}
+    { path: '**', redirectTo: 'home'}
 ];
 
 @NgModule({
